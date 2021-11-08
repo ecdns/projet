@@ -1,0 +1,143 @@
+@font-face{
+    font-family: "Roboto";
+    src:url("/Roboto/Roboto/AnyConv.com__Roboto-Regular.eot")
+}
+@font-face{
+    font-family: "Roboto";
+    src:url("/Roboto/Roboto/Roboto-Regular.ttf")
+}
+header, body{
+    font-family: Roboto;
+}
+body{
+    color: black;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menugauche, .menudroite{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ul{
+    display: inherit;
+}
+ul li{
+    margin: auto 40px;
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.recherche{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#search{
+    width: 800px;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+#bestmatch{
+    width: 250px;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.bloc{
+    width: 301px;
+    margin: 20px;
+}
+#idstar{
+    height: 15px;
+    width: 15px;
+}
+#panier{
+    height: 25px;
+    width: 25px;
+}
+.blocbas{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.colonnedroite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.colonnegauche{
+    display: flex;
+    flex-direction: column;
+}
+#titre{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0;
+}
+#soustitre{
+    opacity: 0.6;
+}
+#prix{
+    font-size: 1.3em;
+    margin: 0;
+}
+#barreselection{
+    width: 250px;
+    height: 50px;
+}
+#filtres{
+    border-bottom: 1px solid grey;
+    width: 250px;
+    padding: 10px auto;
+}
+.produits{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.filtresproduits{
+    width: 301px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.page1{
+    height: 30px;
+    width: 30px;
+    color: white;
+    background-color: black;
+    margin: 20px 30px;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 50px;
+}
+.page{
+    height: 30px;
+    width: 30px;
+    margin: 20px 30px;
+    margin-top: 50px;
+    display: block;
+    text-align: center;
+    vertical-align: center;
+}
+.pages{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
