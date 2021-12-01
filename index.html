@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Boutique en ligne</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#"><img src="maison.png" id=""></a></li>
+                <li><a href="#"><img src="coeur.png" id=""></a></li>
+                <li><a href="#">Se connecter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="bouton">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <script>
+        let boutonmenu = document.querySelector('.bouton');
+        boutonmenu.onclick = function(){
+            boutonmenu.classList.toggle("active")
+        }
+    </script>
+</body>
+</html>
